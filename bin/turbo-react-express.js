@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const chalk = require("chalk");
-const funcs = require("./funcs");
+const funcs = require("./functions");
 
 
 

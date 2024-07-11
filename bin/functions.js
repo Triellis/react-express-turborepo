@@ -19,10 +19,10 @@ exports.validateParams = async (projectLocation) => {
 	// check that there is a project location provided
 	if (!projectLocation) {
 		console.log(`  Please specify a project directory:
-    ${chalk.cyan("nano-react-app")} ${chalk.green("<project-directory>")}
+    ${chalk.cyan("turbo-react-express")} ${chalk.green("<project-directory>")}
 
   For example:
-    ${chalk.cyan("nano-react-app")} ${chalk.green("my-react-app")}
+    ${chalk.cyan("turbo-react-express")} ${chalk.green("my-app")}
     `);
 		return false;
 	}
@@ -73,13 +73,9 @@ exports.notifyUser = async (projectPath, projectName) => {
   Created project ${chalk.magenta(projectName)} at ${chalk.magenta(projectPath)}
   Navigate to that directory and run the following commands:
 
-    1. ${chalk.cyan("npm install")} or ${chalk.cyan(
-		"yarn"
-	)} to install dependencies
+    1. ${chalk.cyan("pnpm install")} to install dependencies
 
-    2. ${chalk.cyan("npm start")} or ${chalk.cyan(
-		"yarn start"
-	)} to start developing
+    2. ${chalk.cyan("pnpm start")} to start developing
 
   ${chalk.yellow("Enjoy!")}
 `);
