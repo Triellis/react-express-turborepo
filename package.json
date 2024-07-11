@@ -1,6 +1,13 @@
 {	"name":"turbo-react-express",
 	"author": {"name": "Zeel Rajodiya"},
-	"version": "0.0.20",
+	"version": "0.0.21",
+	"keywords": [
+		"template",
+		"react",
+		"express",
+		"typescript",
+		"turborepo"
+	],
 	"bin": "./bin/turbo-react-express.js",
 	"packageManager": "pnpm@8.15.1",
 	"dependencies": {
