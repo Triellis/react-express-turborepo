@@ -64,6 +64,7 @@ exports.updateProjectFiles = async (projectPath, projectName) => {
 
 	// delete unnecessary files
 	await deleteFile(path.join(projectPath, "LICENSE"));
+	
 };
 
 exports.notifyUser = async (projectPath, projectName) => {
@@ -75,7 +76,7 @@ exports.notifyUser = async (projectPath, projectName) => {
 
     1. ${chalk.cyan("pnpm install")} to install dependencies
 
-    2. ${chalk.cyan("pnpm start")} to start developing
+    2. ${chalk.cyan("pnpm dev")} to start developing
 
   ${chalk.yellow("Enjoy!")}
 `);

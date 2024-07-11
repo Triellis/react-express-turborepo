@@ -1,5 +1,6 @@
 {	"name":"turbo-react-express",
-	"version": "0.0.16",
+	"author": {"name": "Zeel Rajodiya"},
+	"version": "0.0.20",
 	"bin": "./bin/turbo-react-express.js",
 	"packageManager": "pnpm@8.15.1",
 	"dependencies": {
